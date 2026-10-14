@@ -4,21 +4,21 @@ cask "fejkdata" do
 
   on_macos do
     on_arm do
-      sha256 "08dfc48a6b79854c6fd434fdd7df44a56f8f61f733c93606312c5717a91e8f76"
+      sha256 "523ae145789397c7a11df7e965f6a45946ccaab6d0b599597e5ac41ca90d6b48"
       url "https://github.com/larvit/fejkdata/releases/download/v#{version}/fejkdata_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1cda4732b6129689524012877cb68d291b236d8d65e4b31079cab73bda5a851e"
+      sha256 "6a01efc7cbce8e723068e47bf2f4255739e493d2de8f7b014c8b96f4ce2c1874"
       url "https://github.com/larvit/fejkdata/releases/download/v#{version}/fejkdata_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4ed99c3a138f39c0d070932332dcbcb109cea9a9008e868eb1aefc2896283f19"
+      sha256 "728842428dd113bbd7386c2c5bc3d2885e1929b4c6c75d871cf19f2297465949"
       url "https://github.com/larvit/fejkdata/releases/download/v#{version}/fejkdata_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "54e56a14e18d82c494c6f642867871983d238cb1983aa65364d4a690327ea587"
+      sha256 "c99603ea77d563c4eac6bb6219cb8ed99b9e4eda9de566fe27fe551962f45a7d"
       url "https://github.com/larvit/fejkdata/releases/download/v#{version}/fejkdata_#{version}_linux_amd64.tar.gz"
     end
   end
